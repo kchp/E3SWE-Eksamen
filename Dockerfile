@@ -1,6 +1,6 @@
 FROM python:3.6-alpine
 
-ADD . /src
+COPY . /src
 WORKDIR /src
 
 RUN pip install -r requirements.txt
